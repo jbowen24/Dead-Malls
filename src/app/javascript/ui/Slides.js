@@ -13,7 +13,7 @@ define(['jquery','app/data/Data','app/utils/SocialSharing','lib/jquery-mousewhee
     var self = this,
     prevIndex = 0,
     currentIndex = 0,
-    searchedForMarket = false;
+    searchedForMarket = true;
 
     this.slides = [];
     _animationTime = Data.defaults.animationTime;

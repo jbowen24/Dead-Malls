@@ -117,7 +117,7 @@ define(['jquery','app/data/Data','lib/leaflet/dist/leaflet','lib/esri-leaflet/di
     };
 
     this.runMapTasks = function(index){
-      if (index < Data.slides.length && Data.slides[index].tasks && Data.slides[index].tasks.mapTasks){
+      if (false && index < Data.slides.length && Data.slides[index].tasks && Data.slides[index].tasks.mapTasks){
         $.each(Data.slides[index].tasks.mapTasks,function(){
           var self = this;
           switch (this.type){

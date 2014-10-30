@@ -89,9 +89,9 @@ define(['lib/leaflet/dist/leaflet'],function(){
 
     slides: [{
       mainTitle: true,
-      title: 'The Rapid Rise of Farmers\' Markets',
-      content: 'Farmers\' markets have more than quadrupled in number since the U.S. Department of Agriculture began keeping records in 1994. Scroll down to explore the farmers\' market phenomenon and discover markets in your community.',
-      backgroundImage: 'resources/images/slideContent/backgrounds/market.jpeg',
+      title: 'Dead Malls, the Decline in American Malls',
+      content: 'Shopping Malls',
+      backgroundImage: 'resources/images/slideContent/backgrounds/intro.jpg',
       tasks: {
         mapTasks: [{
           type: 'setBounds',

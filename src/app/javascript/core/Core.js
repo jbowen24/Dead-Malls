@@ -59,7 +59,7 @@ define(['jquery','app/data/Data','app/ui/Map','app/ui/Slides'],function($,Data,M
   function createSlides(){
     _slides = new Slides();
     $(_slides).on('changeStart',changeStart);
-    $(_slides).on('changeEnd',changeEnd);
+     $(_slides).on('changeEnd',changeEnd);
   }
 
   function changeStart(event,changeItems){
